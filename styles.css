@@ -135,6 +135,7 @@ details:focus-visible {
 /* ---- Grids ---- */
 .grid4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 22px; margin-top: 34px; }
 .grid3n { display: grid; grid-template-columns: repeat(4,1fr); align-items: start; position: relative; }
+.grid3n.five { grid-template-columns: repeat(5,1fr); }
 .grid3s { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; margin-top: 34px; }
 
 /* ---- FAQ ---- */
@@ -164,7 +165,7 @@ details:focus-visible {
   .ftt h1 { font-size: clamp(32px,9vw,40px) !important; }
   .ftt h2 { font-size: clamp(28px,8vw,38px) !important; }
   .grid4 { grid-template-columns: 1fr; }
-  .grid3n { grid-template-columns: 1fr; gap: 26px; }
+  .grid3n, .grid3n.five { grid-template-columns: 1fr; gap: 26px; }
   .grid3s { grid-template-columns: 1fr; }
   .route-line { display: none; }
   .cta-phone { font-size: clamp(30px,10vw,44px) !important; }
